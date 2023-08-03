@@ -1,5 +1,5 @@
 # name of our pipeline
-name: deploy-container
+name: deploy-container-workflow
 
 # on which branch do we need to use this pipe
 on:
