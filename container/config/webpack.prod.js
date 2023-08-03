@@ -24,7 +24,7 @@ const prodConfig = {
          * inside a folder with the same name and it goes same for all
          * the other apps
          */
-        marketing: `marketing@${domain}/marketing/remoteEntry.js`,
+        marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
