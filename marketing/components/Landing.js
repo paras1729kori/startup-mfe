@@ -92,7 +92,13 @@ export default function Album() {
               short so folks don&apos;t simply skip over it entirely.
             </Typography>
             <div className={classes.heroButtons}>
-              <Grid container spacing={2} justify="center">
+              <Grid
+                sx={{
+                  display: "flex",
+                  gap: "10px",
+                  justifyContent: "center",
+                }}
+              >
                 <Grid item>
                   <Link to="/pricing">
                     <Button variant="contained" color="primary">
